@@ -113,7 +113,7 @@ int main() {
 
     printf ("*** Pontuação ***\n");
 
-    printf ("** População **\n");
+    printf ("** População: **\n");
     
     if (Populacao1 > Populacao2){
         printf ("Carta 1 venceu\n");
@@ -123,7 +123,7 @@ int main() {
 
     }
     
-    printf ("** Área **\n");
+    printf ("** Área: **\n");
 
     if (Area1 > Area2){
         printf ("Carta 1 venceu\n");
@@ -133,7 +133,7 @@ int main() {
 
     }
     
-    printf ("** PIB **\n");
+    printf ("** PIB: **\n");
 
     if (PIB1 > PIB2){
         printf ("Carta 1 venceu\n");
@@ -143,7 +143,7 @@ int main() {
 
     }
     
-    printf ("** Turismo **\n");
+    printf ("** Turismo: **\n");
 
     if (Turismo1 > Turismo2){
         printf ("Carta 1 venceu\n");
@@ -153,7 +153,7 @@ int main() {
 
     }
     
-    printf ("** PIB per capita **\n");
+    printf ("** PIB per capita: **\n");
 
     if (PPC1 > PPC2){
         printf ("Carta 1 venceu\n");
@@ -163,7 +163,7 @@ int main() {
 
     }
     
-    printf ("** Densidade populacional **\n");
+    printf ("** Densidade populacional: **\n");
 
     if (DP1 < DP2){
         printf ("Carta 1 venceu\n");
@@ -173,7 +173,7 @@ int main() {
 
     }
 
-    printf ("** Super poder **\n");
+    printf ("** Super poder: **\n");
 
     if ((Populacao1 + Area1 + PIB1 + Turismo1 + PPC1 + 1/DP1) > (Populacao2 + Area2 + PIB2 + Turismo2 + PPC2 + 1/DP2)){
         printf ("Carta 1 venceu\n");
